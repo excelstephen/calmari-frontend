@@ -1,0 +1,151 @@
+.homepage-container {
+  font-family: 'Segoe UI', sans-serif;
+  color: #103c3f;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d6f5f0;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-text h1 span {
+  color: #00b3a6;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.hero-text .get-started-btn {
+  background-color: #00b3a6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.hero-text .get-started-btn:hover {
+  background-color: #009e92;
+}
+
+.hero-image {
+  background-image: url("/illustration.png"); /* Replace with actual image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  flex: 1;
+}
+
+/* Features Section */
+.features {
+  padding: 3rem 2rem;
+  background-color: #f3fbfa;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.feature-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  background-color: #d6f5f0;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.feature-card .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial-card {
+  background-color: #d6f5f0;
+  padding: 1.5rem;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+/* CTA Section */
+.cta {
+  padding: 3rem 2rem;
+  background-color: #103c3f;
+  text-align: center;
+  color: white;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta .get-started-btn {
+  background-color: white;
+  color: #103c3f;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta .get-started-btn:hover {
+  background-color: #e0f7f4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    height: 200px;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
