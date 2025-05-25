@@ -39,6 +39,8 @@ const Navbar = () => {
 
   return (
     <>
+    {/* dark-green: #103c3f */}
+      {/* light-green: #00b3a6 */}
       <AppBar position="static" sx={{ bgcolor: "#103c3f", boxShadow: "none" }}>
         <Container maxWidth="lg">
           <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>

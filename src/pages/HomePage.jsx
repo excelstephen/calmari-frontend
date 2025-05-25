@@ -91,7 +91,7 @@ const HomePage = () => {
                   alignSelf: { xs: 'center', md: 'flex-start' },
                 }}
                 component={Link}
-                to="/register"
+                to="/chat"
               >
                 Get Started
               </Button>
