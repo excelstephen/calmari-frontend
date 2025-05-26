@@ -190,7 +190,7 @@ const HomePage = () => {
               transition: "all 0.3s ease",
             }}
             component={Link}
-            to="/register"
+            to="/chat"
           >
             Get Started
           </Button>
