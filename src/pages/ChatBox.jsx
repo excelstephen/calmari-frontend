@@ -107,7 +107,7 @@ const ChatBox = () => {
             <img src={logo} alt="Calmari Logo" style={{ width: 50, height: 50, marginRight: 10 }} />
             </Avatar>
             <Typography variant="h6" component="div" sx={{ fontWeight: "bold" }}>
-            Calmari - Your Therapy Companion
+            Calmari
             </Typography>
         </Box>
         <IconButton onClick={handleClose} sx={{ color: "#fff" }}>
