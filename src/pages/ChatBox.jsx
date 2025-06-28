@@ -49,7 +49,7 @@ const ChatBox = () => {
 
     try {
       const res = await fetch(
-        "https://calmari-backend-ec5d7ed7bf56.herokuapp.com/api/chat/",
+        "https://calmari-backend-ec5d7ed7bf56.herokuapp.com/api/chat",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
